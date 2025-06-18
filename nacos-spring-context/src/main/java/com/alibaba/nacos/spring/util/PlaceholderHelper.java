@@ -1,7 +1,7 @@
 package com.alibaba.nacos.spring.util;
 
-import com.google.common.base.Strings;
-import com.google.common.collect.Sets;
+import com.alibaba.nacos.shaded.com.google.common.base.Strings;
+import com.alibaba.nacos.shaded.com.google.common.collect.Sets;
 import org.springframework.util.StringUtils;
 
 import java.util.Set;

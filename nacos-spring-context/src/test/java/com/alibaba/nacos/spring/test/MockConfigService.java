@@ -23,6 +23,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.Executor;
 
+import com.alibaba.nacos.api.config.filter.IConfigFilter;
 import org.springframework.util.CollectionUtils;
 
 import com.alibaba.nacos.api.config.ConfigService;
@@ -193,6 +194,11 @@ public class MockConfigService implements ConfigService {
 	@Override
 	public String getServerStatus() {
 		return "UP";
+	}
+
+	@Override
+	public void addConfigFilter(IConfigFilter iConfigFilter) {
+
 	}
 
 	@Override

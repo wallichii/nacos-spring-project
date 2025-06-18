@@ -21,8 +21,8 @@ import static com.alibaba.nacos.samples.spring.NacosConfiguration.CURRENT_TIME_D
 
 import java.util.Date;
 
-import javax.annotation.PostConstruct;
 
+import jakarta.annotation.PostConstruct;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Configuration;

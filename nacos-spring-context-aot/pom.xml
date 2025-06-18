@@ -10,7 +10,6 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <groupId>com.alibaba.nacos</groupId>
     <artifactId>nacos-spring-context-aot</artifactId>
     <version>${revision}</version>
     <name>Alibaba Nacos :: Spring :: Context :: Aot</name>

@@ -19,8 +19,8 @@ package com.alibaba.nacos.samples.spring.properties;
 import static com.alibaba.nacos.api.common.Constants.DEFAULT_GROUP;
 import static com.alibaba.nacos.samples.spring.domain.Pojo.DATA_ID;
 
-import javax.annotation.PostConstruct;
 
+import jakarta.annotation.PostConstruct;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

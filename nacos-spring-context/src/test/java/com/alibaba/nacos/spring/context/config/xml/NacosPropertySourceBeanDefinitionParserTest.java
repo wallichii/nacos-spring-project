@@ -67,6 +67,7 @@ public class NacosPropertySourceBeanDefinitionParserTest
 
 	@Override
 	protected void init(EmbeddedNacosHttpServer server) {
+		System.out.println("NacosPropertySourceBeanDefinitionParserTest.init");
 		Map<String, String> config = new HashMap<String, String>(1);
 		config.put(DATA_ID_PARAM_NAME, "user");
 		config.put(GROUP_ID_PARAM_NAME, DEFAULT_GROUP);

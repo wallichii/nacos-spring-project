@@ -1,6 +1,6 @@
 package com.alibaba.nacos.spring.util;
 
-import com.google.common.collect.Sets;
+import com.alibaba.nacos.shaded.com.google.common.collect.Sets;
 import org.junit.Assert;
 import org.junit.Test;
 

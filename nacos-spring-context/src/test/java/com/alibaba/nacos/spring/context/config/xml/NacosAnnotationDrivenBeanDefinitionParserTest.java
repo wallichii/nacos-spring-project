@@ -72,7 +72,7 @@ public class NacosAnnotationDrivenBeanDefinitionParserTest {
 
 	@BeforeClass
 	public static void init() {
-		System.setProperty("nacos.server-addr", "127.0.0.1:8080");
+		System.setProperty("nacos.server-addr", "127.0.0.1:8084");
 	}
 
 	@AfterClass

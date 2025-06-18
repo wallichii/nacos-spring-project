@@ -29,8 +29,8 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.atomic.AtomicInteger;
 
+import com.alibaba.nacos.common.utils.ArrayUtils;
 import com.alibaba.nacos.spring.context.annotation.config.SpringValueAnnotationBeanPostProcessor;
-import org.apache.commons.lang3.ArrayUtils;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.ListableBeanFactory;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;

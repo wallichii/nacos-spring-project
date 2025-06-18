@@ -16,8 +16,8 @@
  */
 package com.alibaba.nacos.samples.spring;
 
-import javax.annotation.PostConstruct;
 
+import jakarta.annotation.PostConstruct;
 import org.springframework.context.annotation.Configuration;
 
 import com.alibaba.nacos.api.annotation.NacosInjected;

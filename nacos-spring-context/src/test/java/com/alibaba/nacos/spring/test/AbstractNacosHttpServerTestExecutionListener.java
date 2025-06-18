@@ -41,11 +41,13 @@ public abstract class AbstractNacosHttpServerTestExecutionListener
 	@Override
 	public void beforeTestClass(TestContext testContext) throws Exception {
 		initEnvironment(testContext);
-		httpServer = new EmbeddedNacosHttpServer();
+		httpServer = new EmbeddedNacosHttpServer(8848);
 		init(httpServer);
+//		System.setProperty(getServerAddressPropertyName(),
+//				"127.0.0.1:" + httpServer.getPort());
 		System.setProperty(getServerAddressPropertyName(),
-				"127.0.0.1:" + httpServer.getPort());
-		httpServer.start(true);
+				"10.116.0.51:30804");
+//		httpServer.start(true);
 	}
 
 	public void initEnvironment(TestContext testContext) {
@@ -54,7 +56,7 @@ public abstract class AbstractNacosHttpServerTestExecutionListener
 
 	@Override
 	public final void afterTestClass(TestContext testContext) throws Exception {
-		httpServer.stop();
+//		httpServer.stop();
 		System.getProperties().remove(getServerAddressPropertyName());
 	}
 

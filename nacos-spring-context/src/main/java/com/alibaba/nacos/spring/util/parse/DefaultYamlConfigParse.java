@@ -18,8 +18,8 @@
 package com.alibaba.nacos.spring.util.parse;
 
 import com.alibaba.nacos.api.config.ConfigType;
+import com.alibaba.nacos.common.utils.StringUtils;
 import com.alibaba.nacos.spring.util.AbstractConfigParse;
-import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.DumperOptions;

@@ -19,6 +19,8 @@
 
 package com.alibaba.nacos.spring.aot;
 
+
+
 import com.alibaba.nacos.api.annotation.NacosInjected;
 import com.alibaba.nacos.api.config.annotation.NacosValue;
 import org.springframework.aot.generate.GenerationContext;

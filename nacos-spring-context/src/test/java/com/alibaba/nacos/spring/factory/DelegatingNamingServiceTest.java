@@ -35,8 +35,8 @@ import java.util.List;
 public class DelegatingNamingServiceTest {
     @Test
     public void testNamingService() throws NacosException {
-        NacosNamingService nacosNamingService = new NacosNamingService("127.0.0.1:8848");
-        List<Instance> instances = nacosNamingService.getAllInstances("example");
+        NacosNamingService nacosNamingService = new NacosNamingService("10.116.0.51:30804");
+        List<Instance> instances = nacosNamingService.getAllInstances("public");
         System.out.println(instances);
         Assert.assertNotNull(instances);
     }
